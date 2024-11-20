@@ -1,0 +1,419 @@
+<!doctype html>
+<html>
+	<head>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+	
+	<title>Jason Tran</title>
+
+	<style>
+	body {
+    background: #EEEEEE;
+    font: 13px "Times New Roman", Times, sans-serif;
+    line-height: 1.4;
+    margin: 40px 0;
+}
+
+em {
+    color: #999;
+}
+
+p {
+    line-height: 1.4;
+}
+
+ul {
+    margin-bottom: 0;
+}
+
+li {
+    margin-bottom: 2px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#resume {
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 80px 100px;
+    background: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 4px #aaa;
+    -webkit-box-shadow: 2px 2px 4px #aaa;
+}
+
+.coursesList {
+    width: 28%;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.largeFont {
+    font-size: 20px;
+}
+
+.smallFont {
+    font-size: 13px;
+}
+
+.sectionBlock {
+    display: flex;
+    width: 100%;
+}
+
+.sectionName {
+    width: 18%;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.sectionContent {
+    width: 80%;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.sectionContent ul {
+    padding-left: 20px;
+    margin-top: 6px;
+    list-style-type: circle;
+}
+
+.sectionContent .title {
+    font-weight: bold;
+}
+
+.sectionContent .date {
+    float: right;
+}
+
+.sectionContent .separator {
+    height: 14px;
+}
+
+.sectionLine {
+    border-style: dashed;
+    border-width: 1px;
+    border-color: #CFCFCF;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.divider {
+    font-weight: bold;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.summary {
+    margin-top: 6px;
+}
+
+.skillBlock {
+    margin-bottom: 4px;
+}
+
+.jobBlock {
+    page-break-inside: avoid;
+}
+
+.description {
+    text-align: justify;
+}
+
+blockquote.reference {
+    margin: 0;
+    margin-bottom: 1em;
+}
+
+
+/* Media Queries */
+
+@media only screen and (max-width: 40em) {
+    body {
+        margin: 0;
+        font-size: 14px;
+    }
+    #resume {
+        margin: 0 auto;
+        max-width: 600px;
+        padding: 0.5em 1em;
+        border: none;
+    }
+    .sectionBlock {
+        flex-direction: column;
+    }
+    .sectionContent {
+        width: 100%;
+    }
+    .sectionContent .date {
+        padding-right: 2em;
+    }
+    .sectionName {
+        width: auto;
+    }
+    .largeFont {
+        font-size: 20px;
+    }
+    .smallFont {
+        font-size: 14px;
+    }
+}
+
+@media print {
+    body {
+        background: #FFFFFF;
+    }
+    #resume {
+        margin: 0 auto;
+        max-width: 600px;
+        padding: 0px 0px;
+        border: 0px;
+        background: #fff;
+        box-shadow: none;
+        -webkit-box-shadow: none;
+    }
+    a {
+        color: black;
+    }
+}
+	</style>
+	
+	</head>
+	<body>
+	
+	<div id="resume">
+		<div id='nameBlock' class='largeFont'>
+			<span class='name'>
+				Jason Tran
+			</span>
+		</div>
+		<div id='basicsBlock' class='smallFont'>
+			<div class='contactBlock'>
+				<span class='email'>jasontran2022@gmail.com</span>
+				<span class='divider'>|</span>
+				<span class='phone'>(267) 858-8566</span>
+				<span class='divider'>|</span>
+				<span class='address'>
+					Philadelphia, Pennsylvania, US
+				</span>
+			</div>
+			<div id='profilesBlock'>
+				<span class='url'>
+					<b>linkedin:</b> <a href='https://www.linkedin.com/in/jasontran2022'>https://www.linkedin.com/in/jasontran2022</a>
+				</span>
+				<span class='divider'>|</span>
+				<span class='url'>
+					<b>github:</b> <a href='https://github.com/jasont2022'>https://github.com/jasont2022</a>
+				</span>
+				
+			</div>
+		</div>
+		
+		<div class='sectionLine'></div>
+		<div id='education' class="sectionBlock">
+			<div class='sectionName'>
+				<span>EDUCATION</span>
+			</div>
+			<div class='sectionContent'>
+				<div class='educationBlock'>
+					<span class='title'>
+						University of Pennsylvania
+					</span>
+					<span class='date'>
+						August 2018 &mdash; August 2022
+					</span>
+					<div class=''>
+						Bachelor of Applied Science  - Computer Science
+					</div>
+				
+				</div>
+				
+			</div>
+		</div>
+		<div class='sectionLine'></div>
+		<div id='skills' class="sectionBlock">
+			<div class='sectionName'>
+				<span>SKILLS</span>
+			</div>
+			<div class='sectionContent'>
+				<div class='skillBlock'>
+					<span class='title'>Programming Languages:</span>
+					<span>Java</span>, 
+					<span>JavaScript</span>, 
+					<span>Python</span>, 
+					<span>HTML</span>, 
+					<span>CSS</span>
+				</div>
+				<div class='skillBlock'>
+					<span class='title'>Front-end Technologies:</span>
+					<span>React</span>, 
+					<span>Redux</span>, 
+					<span>Next.js</span>, 
+					<span>Axios</span>, 
+					<span>Bootstrap</span>, 
+					<span>Styled-Components</span>
+				</div>
+				<div class='skillBlock'>
+					<span class='title'>Back-end Technologies:</span>
+					<span>Spring</span>, 
+					<span>Kafka</span>, 
+					<span>Kafka Connect</span>, 
+					<span>Kafka Streams</span>, 
+					<span>Express</span>, 
+					<span>Node.js</span>, 
+					<span>Passport.js</span>, 
+					<span>FastAPI</span>
+				</div>
+				<div class='skillBlock'>
+					<span class='title'>Databases:</span>
+					<span>PostgreSQL</span>, 
+					<span>Oracle</span>, 
+					<span>MongoDB</span>, 
+					<span>MySQL</span>
+				</div>
+				<div class='skillBlock'>
+					<span class='title'>Cloud and DevOps:</span>
+					<span>Docker</span>, 
+					<span>Kubernetes</span>, 
+					<span>Jenkins</span>, 
+					<span>Heroku</span>, 
+					<span>Netlify</span>, 
+					<span>Grafana</span>, 
+					<span>Prometheus</span>, 
+					<span>Kibana</span>
+				</div>
+				<div class='skillBlock'>
+					<span class='title'>Other Technologies:</span>
+					<span>Git</span>, 
+					<span>GitHub</span>, 
+					<span>GitLab</span>
+				</div>
+			</div>
+		</div>
+		<div class='sectionLine'></div>
+		<div id='workBlock' class="sectionBlock">
+			<div class='sectionName'>
+				<span>EXPERIENCE</span>
+			</div>
+			<div class='sectionContent'>
+				<div class="jobBlock">
+					<div class='blockHeader'>
+						<span class='title'>Workday</span>
+						 | <span class="position">Software Development Engineer II</span>
+						<span class='date'>
+							October 2023 &mdash; Present
+						</span>
+					</div>
+					<div><a href=''></a></div>
+					<ul class='highlights'>
+						<li>Troubleshoot and implement improvements to resolve Kafka, Kafka Connect, and Kafka Streams production issues ensuring better performance, availability, and reliability</li>
+						<li>Enhance initial Kafka, Debezium, and Spring metrics to improve logging capabilities, reduce metric volume, and automate metric collection pipeline, enabling proactive monitoring through logging, dashboards, and real-time alerts</li>
+						<li>Investigate and address Kafka Spring security issues and CI/CD auditing unit test failures which strengthens overall software security and minimizing Jenkins pipeline build errors</li>
+						<li>Collaborate with cross-functional teams to integrate key features such as migrating Spring application from Maven to Gradle, deploying new Kafka and Debezium Docker images, defining SLI/SLO auditing metrics, enabling automated dependency updates, and increasing code coverage with SonarQube</li>
+					</ul>
+					<div class='separator'></div>
+				</div>
+				<div class="jobBlock">
+					<div class='blockHeader'>
+						<span class='title'>Workday</span>
+						 | <span class="position">Software Development Engineer I</span>
+						<span class='date'>
+							September 2022 &mdash; September 2023
+						</span>
+					</div>
+					<div><a href=''></a></div>
+					<ul class='highlights'>
+						<li>Developed and optimized Oracle scripts to detect and delete extraneous audit trail data, improving data retrieval efficiency and supporting Aurora Postgres multi database migration goals</li>
+						<li>Resolved audit trail issues, reducing Java and Oracle bugs and ensuring intended functionality for customers</li>
+					</ul>
+					<div class='separator'></div>
+				</div>
+				<div class="jobBlock">
+					<div class='blockHeader'>
+						<span class='title'>Workday</span>
+						 | <span class="position">Software Development Engineer Intern</span>
+						<span class='date'>
+							May 2021 &mdash; August 2021
+						</span>
+					</div>
+					<div><a href=''></a></div>
+					<ul class='highlights'>
+						<li>Integrated monitoring tools such as Spring Boot Actuator, JMX exporter, and Prometheus to the Adaptive Planning back-end auditing architecture</li>
+						<li>Analyzed and configured essential Kafka, Debezium, Spring, and JVM metrics for monitoring and observability</li>
+					</ul>
+					
+				</div>
+			</div>
+		</div>
+		<div class='sectionLine'></div>
+		<div id='projectsBlock' class="sectionBlock">
+			<div class='sectionName'>
+				<span>PROJECTS</span>
+			</div>
+			<div class='sectionContent'>
+				<div class="projectBlock">
+					<div class='blockHeader'>
+						<span class='title'>
+							Conscious Investor App
+						</span>
+						
+						
+						<span class='date'>
+							August 2021 &mdash; May 2022
+						</span>
+					</div>
+					<div><a href='https://github.com/jasont2022/conscious-investor-app'>https://github.com/jasont2022/conscious-investor-app</a></div>
+					<ul class='highlights'>
+						<li>Partnered with a team of five to develop a full-stack MERN web application to provide investors with data-driven investment insights for ethical investing</li>
+						<li>Integrated MongoDB Atlas for secure and scalable cloud data management, optimizing database storage and retrieval from Python web scraping programs and supporting robust investment tracking features</li>
+						<li>Designed and implemented RESTful APIs with Express and Node.js, enabling secure seamless communication between the frontend and backend with Robin Hood and News APIs</li>
+						<li>Built a dynamic, user-friendly frontend with React and Bootstrap, offering simple navigation and data report for investment analysis and recommendations</li>
+					</ul>
+					<div class='separator'></div>
+				</div>
+				<div class="projectBlock">
+					<div class='blockHeader'>
+						<span class='title'>
+							Scalable Backend Server
+						</span>
+						
+						
+						<span class='date'>
+							April 2022 &mdash; May 2022
+						</span>
+					</div>
+					<div><a href='https://github.com/jasont2022/cis188-final'>https://github.com/jasont2022/cis188-final</a></div>
+					<ul class='highlights'>
+						<li>Developed and deployed a scalable backend server on AWS utilizing Python, FastAPI, and MongoDB, providing rapid API response times and robust data persistence</li>
+						<li>Orchestrated deployments on Kubernetes, leveraging containerized environments to ensure easy scalability, high availability, and consistency across environments</li>
+						<li>Configured and automated CI/CD pipelines with GitHub Actions to streamline build, test, and deployment workflows, ensuring code stability and deployment efficiency</li>
+					</ul>
+					<div class='separator'></div>
+				</div>
+				<div class="projectBlock">
+					<div class='blockHeader'>
+						<span class='title'>
+							Website Portfolio
+						</span>
+						
+						
+						<span class='date'>
+							January 2022 &mdash; May 2022
+						</span>
+					</div>
+					<div><a href='https://github.com/jasont2022/jasont2022.github.io'>https://github.com/jasont2022/jasont2022.github.io</a></div>
+					<ul class='highlights'>
+						<li>Participated in weekly critiques to improve UI/UX concepts and code implementation of the projects</li>
+						<li>Designed thoughtful and creative layouts, components, navigation flow, and animations through Figma and Adobe suite tools before implementing code</li>
+						<li>Created an interactive and responsive website to host projects using HTML, CSS, and JavaScript</li>
+					</ul>
+					
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
