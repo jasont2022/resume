@@ -1,0 +1,27 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "This is the resume of Jason Tran",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasont2022/resume.git"
+  },
+  "keywords": [
+    "resume"
+  ],
+  "author": "Jason Tran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jasont2022/resume/issues"
+  },
+  "homepage": "https://github.com/jasont2022/resume#readme",
+  "dependencies": {
+    "jsonresume-theme-onepage-plus": "^1.0.1",
+    "jsonresume-theme-onepage-simplified": "^1.2.2",
+    "jsonresume-theme-paper": "^0.5.0"
+  }
+}

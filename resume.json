@@ -1,0 +1,150 @@
+{
+  "meta": {
+    "theme": "professional"
+  },
+  "basics": {
+    "name": "Jason Tran",
+    "label": "",
+    "image": "",
+    "summary": "",
+    "website": "",
+    "email": "jasontran2022@gmail.com",
+    "phone": "(267) 858-8566",
+    "location": {
+      "postalCode": "PA",
+      "city": "Philadelphia",
+      "countryCode": "US",
+      "region": "Pennsylvania"
+    },
+    "profiles": [
+      {
+        "url": "https://www.linkedin.com/in/jasontran2022",
+        "username": "jasontran2022",
+        "network": "linkedin"
+      },
+      {
+        "url": "https://github.com/jasont2022",
+        "username": "jasont2022",
+        "network": "github"
+      }
+    ]
+  },
+  "education": [
+    {
+      "startDate": "August 2018",
+      "endDate": "August 2022",
+      "area": "Computer Science",
+      "studyType": "Bachelor of Applied Science",
+      "institution": "University of Pennsylvania"
+    }
+  ],
+  "work": [
+    {
+      "position": "Software Development Engineer II",
+      "name": "Workday",
+      "website": "",
+      "location": "Santa Clara, CA",
+      "startDate": "October 2023",
+      "summary": "",
+      "highlights": [
+        "Troubleshoot and implement improvements to resolve Kafka, Kafka Connect, and Kafka Streams production issues ensuring better performance, availability, and reliability", 
+        "Enhance initial Kafka, Debezium, and Spring metrics to improve logging capabilities, reduce metric volume, and automate metric collection pipeline, enabling proactive monitoring through logging, dashboards, and real-time alerts", 
+        "Investigate and address Kafka Spring security issues and CI/CD auditing unit test failures which strengthens overall software security and minimizing Jenkins pipeline build errors", 
+        "Collaborate with cross-functional teams to integrate key features such as migrating Spring application from Maven to Gradle, deploying new Kafka and Debezium Docker images, defining SLI/SLO auditing metrics, enabling automated dependency updates, and increasing code coverage with SonarQube"
+      ]
+    },
+    {
+      "position": "Software Development Engineer I",
+      "name": "Workday",
+      "website": "",
+      "location": "Palo Alto, CA",
+      "startDate": "September 2022",
+      "endDate": "September 2023",
+      "summary": "",
+      "highlights": [
+        "Developed and optimized Oracle scripts to detect and delete extraneous audit trail data, improving data retrieval efficiency and supporting Aurora Postgres multi database migration goals",
+        "Resolved audit trail issues, reducing Java and Oracle bugs and ensuring intended functionality for customers"
+      ]
+    },
+    {
+      "position": "Software Development Engineer Intern",
+      "name": "Workday",
+      "website": "",
+      "location": "Remote",
+      "startDate": "May 2021",
+      "endDate": "August 2021",
+      "summary": "",
+      "highlights": [
+        "Integrated monitoring tools such as Spring Boot Actuator, JMX exporter, and Prometheus to the Adaptive Planning back-end auditing architecture",
+        "Analyzed and configured essential Kafka, Debezium, Spring, and JVM metrics for monitoring and observability"
+        
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Conscious Investor App",
+      "startDate": "August 2021",
+      "endDate": "May 2022",
+      "description": "",
+      "highlights": [
+        "Partnered with a team of five to develop a full-stack MERN web application to provide investors with data-driven investment insights for ethical investing",
+        "Integrated MongoDB Atlas for secure and scalable cloud data management, optimizing database storage and retrieval from Python web scraping programs and supporting robust investment tracking features",
+        "Designed and implemented RESTful APIs with Express and Node.js, enabling secure seamless communication between the frontend and backend with Robin Hood and News APIs",
+        "Built a dynamic, user-friendly frontend with React and Bootstrap, offering simple navigation and data report for investment analysis and recommendations"
+      ],
+      "url": "https://github.com/jasont2022/conscious-investor-app"
+    },
+    {
+      "name": "Scalable Backend Server",
+      "startDate": "April 2022",
+      "endDate": "May 2022",
+      "description": "",
+      "highlights": [
+        "Developed and deployed a scalable backend server on AWS utilizing Python, FastAPI, and MongoDB, providing rapid API response times and robust data persistence",
+        "Orchestrated deployments on Kubernetes, leveraging containerized environments to ensure easy scalability, high availability, and consistency across environments",
+        "Configured and automated CI/CD pipelines with GitHub Actions to streamline build, test, and deployment workflows, ensuring code stability and deployment efficiency"
+
+      ],
+      "url": "https://github.com/jasont2022/cis188-final"
+    },
+    {
+      "name": "Website Portfolio",
+      "startDate": "January 2022",
+      "endDate": "May 2022",
+      "description": "",
+      "highlights": [
+        "Participated in weekly critiques to improve UI/UX concepts and code implementation of the projects",
+        "Designed thoughtful and creative layouts, components, navigation flow, and animations through Figma and Adobe suite tools before implementing code",
+        "Created an interactive and responsive website to host projects using HTML, CSS, and JavaScript"
+      ],
+      "url": "https://github.com/jasont2022/jasont2022.github.io"
+    }
+  ],
+  "skills": [
+    {
+      "keywords": ["Java", "JavaScript", "Python", "HTML", "CSS"],
+      "name": "Programming Languages"
+    },
+    {
+      "keywords": ["React", "Redux", "Next.js", "Axios", "Bootstrap", "Styled-Components"],
+      "name": "Front-end Technologies"
+    },
+    {
+      "keywords": ["Spring", "Kafka", "Kafka Connect", "Kafka Streams", "Express", "Node.js", "Passport.js", "FastAPI"],
+      "name": "Back-end Technologies"
+    },
+    {
+      "keywords": ["PostgreSQL", "Oracle", "MongoDB", "MySQL"],
+      "name": "Databases"
+    },
+    {
+      "keywords": ["Docker", "Kubernetes", "Jenkins", "Heroku", "Netlify", "Grafana", "Prometheus", "Kibana"],
+      "name": "Cloud and DevOps"
+    },
+    {
+      "keywords": ["Git", "GitHub", "GitLab"],
+      "name": "Other Technologies"
+    }
+  ]
+}
