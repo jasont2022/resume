@@ -22,7 +22,6 @@
   "dependencies": {
     "jsonresume-theme-onepage-plus": "^1.0.1",
     "jsonresume-theme-onepage-simplified": "^1.2.2",
-    "jsonresume-theme-paper": "^0.5.0",
-    "resume-cli": "^3.0.8"
+    "jsonresume-theme-paper": "^0.5.0"
   }
 }
