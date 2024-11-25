@@ -4,7 +4,7 @@
   "description": "This is the resume of Jason Tran",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "validate": "resume validate"
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,7 @@
   "dependencies": {
     "jsonresume-theme-onepage-plus": "^1.0.1",
     "jsonresume-theme-onepage-simplified": "^1.2.2",
-    "jsonresume-theme-paper": "^0.5.0"
+    "jsonresume-theme-paper": "^0.5.0",
+    "resume-cli": "^3.0.8"
   }
 }

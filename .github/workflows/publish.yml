@@ -13,8 +13,8 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
       - run: |
-          npm install -g resume-cli
-          resume validate
+          npm install
+          npm run validate
   
   check_run:
     name: Check Commit Message
