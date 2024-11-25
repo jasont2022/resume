@@ -1,19 +1,41 @@
 # example GitHub workflow
+name: Publish Resume as Github Page
 
-name: Publish resume in JSONResume format as Github Page
- 
 on:
   push:
     branches: [ main ]
 
 jobs:
-  check_run:
+  lint:
+    name: Run Lint
     runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: |
+          npm install
+          npm run lint
+
+  validate:
+    name: Validate Resume JSON
+    runs-on: ubuntu-latest
+    needs: lint
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - run: |
+          npm install
+          resume validate
+  
+  check_run:
+    name: Check Commit Message
+    runs-on: ubuntu-latest
+    needs: validate
     if: "! contains(github.event.head_commit.message, '[ci skip]')"
     steps:
       - run: echo "${{ github.event.head_commit.message }}"
-
+  
   build:
+    name: Build HTML Page
     runs-on: ubuntu-latest
     needs: check_run
     steps:
